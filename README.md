@@ -71,13 +71,13 @@ python manage.py runserver
 ### **6. Access the App**
 
 * **Frontend UI:**
-  [http://127.0.0.1:8000/app/](http://127.0.0.1:8000/api/tasks/app/)
+  [http://127.0.0.1:8000/api/tasks/app/](http://127.0.0.1:8000/api/tasks/app/)
 
 * **Analyze API (POST):**
-  [http://127.0.0.1:8000/analyze/](http://127.0.0.1:8000/api/tasks/analyze/)
+  [http://127.0.0.1:8000/api/tasks/analyze/](http://127.0.0.1:8000/api/tasks/analyze/)
 
 * **Suggestions (GET):**
-  [http://127.0.0.1:8000/suggest/](http://127.0.0.1:8000/api/tasks/suggest/)
+  [http://127.0.0.1:8000/api/tasks/suggest/](http://127.0.0.1:8000/api/tasks/suggest/)
 
 ---
 
