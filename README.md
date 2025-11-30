@@ -81,7 +81,7 @@ python manage.py runserver
 
 ---
 
-# **🧠 Algorithm Explanation (300–500 words)**
+# **🧠 Algorithm Explanation **
 
 The Task Analyzer uses a hybrid scoring and dependency-aware sorting system to determine the best order in which a user should complete tasks. At the core of the algorithm is a `calculate_task_score()` function, which generates a composite score for each task by considering urgency (due date), impact (importance), and time-effort (estimated hours). Urgency is handled by comparing the due date with today’s date, awarding higher scores for overdue tasks or tasks due in the next few days. Importance is heavily weighted (importance × 5) to reflect its influence on prioritization. Very short tasks (<2 hours) also receive bonus points, allowing quick wins to surface higher when appropriate.
 
